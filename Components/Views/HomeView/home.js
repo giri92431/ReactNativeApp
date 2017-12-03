@@ -4,9 +4,10 @@ import {
   StyleSheet,
   Text,
 	View,
-	ScrollView,Image,WebView
+	ScrollView,Image,WebView, ImageBackground
 } from 'react-native';
-
+import { Button } from 'react-native-elements'
+import { Ionicons } from '@expo/vector-icons'
 import DataFactoryApi from './../../../Data/DataFactory'
 
 
@@ -31,18 +32,48 @@ import DataFactoryApi from './../../../Data/DataFactory'
 								style={{width: 300, height: 250}}
 								source={{uri: prop.picture}}
        				 />
-								<Text>{prop.Content}</Text>
+								<Text style={this.styles.title}>{prop.Content}</Text>
+								<View style={this.styles.buttons}>
+									<Button raised 
+										backgroundColor ='#0084ff'
+										title='like'
+										icon={{name: 'thumb-up', }}/>
+									<Button raised
+										backgroundColor ='#0084ff'
+										title='Comment'
+										icon={{name: 'comment'}} />
+									<Button raised
+										backgroundColor ='#0084ff'
+										title='Share'
+										icon={{name: 'share'}} />
+										</View>
 						</View>
 					);
 				}
 				else{
 					return(
 							<View key={prop.index} style={this.styles.container}>
-							<WebView
-        				source={{uri: prop.picture}}
-								style={this.styles.video}
-							/>
-							</View>
+								<WebView
+									source={{uri: prop.picture}}
+									style={this.styles.video}
+								/>
+								<Text style={this.styles.title}>{prop.Content}</Text>
+								<View style={this.styles.buttonsvideo}>
+									<Button raised 
+										backgroundColor ='#0084ff'
+										title='like'
+										icon={{name: 'thumb-up', }}/>
+									<Button raised
+										backgroundColor ='#0084ff'
+										title='Comment'
+										icon={{name: 'comment'}} />
+									<Button raised
+										backgroundColor ='#0084ff'
+										title='Share'
+										icon={{name: 'share'}} />
+										</View>
+						</View>
+						
 					);
 				}
       })}
@@ -52,16 +83,19 @@ import DataFactoryApi from './../../../Data/DataFactory'
 	 
 	 styles = StyleSheet.create({
 		container: {
-			borderRadius: 4,
-			borderWidth: 0.5,
+			borderWidth: 1,
 			borderColor: '#d6d7da',
-			height:300,
+			height:400,
 			justifyContent: 'center',
 			alignItems: 'center',
+			
 		},
 		title: {
-			fontSize: 19,
+			fontSize: 16,
 			fontWeight: 'bold',
+			padding: 5,
+			color: '#46484c'
+			
 		},
 		activeTitle: {
 			color: 'red',
@@ -73,9 +107,26 @@ import DataFactoryApi from './../../../Data/DataFactory'
 		},
 		video: {
 			marginTop: 20,
-			maxHeight: 200,
+			maxHeight: 300,
 			width: 320,
 			flex: 1
+		}
+		,
+		buttons:{
+			justifyContent: 'center',
+			flexDirection: 'row', 
+			borderColor: '#d6d7da',
+			justifyContent:'space-around',
+			top:12
+			
+		},
+		buttonsvideo:{
+			justifyContent: 'center',
+			flexDirection: 'row', 
+			borderColor: '#d6d7da',
+			justifyContent:'space-around',
+			top:-2
+			
 		}
 	});
  }
