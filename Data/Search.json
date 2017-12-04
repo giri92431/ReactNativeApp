@@ -1,16 +1,34 @@
 [
     {
         "index":1,
-        "name":"",
-        "image":"",
-        "rating":"",
+        "name":"Zago Body Buddy Chocolate 20g Protein drink",
+        "image":"https://images-na.ssl-images-amazon.com/images/I/61k8G6CPG5L._SL1000_.jpg",
+        "rating":4.4,
         "comments":{
-            "amazon":[],
+            "amazon":[
+                "I simply love these drinks - they're gluten-free, lactose-free, sugar-free and absolutely healthy. My tummy loves them!",
+                "being a consumable item it needs to be packed in food grade plastic bottle.However it appears that it is ordinary plastic",
+                "Wonderful taste",
+                "I absolutely love these! Handy nutrition and not super expensive... Thank the Lord for the small miracles! The shakes actually taste nice, my favorite being the coffee caramel flavor, and not something like a cardboard grinder up. It's smooth, liquid (and not the usual thick consistency) and very palatable. Does help maintain optimum nutrition and helps keep energy levels up through the day."
+            ],
             "sanpdeal":[],
             "alibba":[],
-            "twitter":[],
-            "facebook":[]
-        }
-        
+            "twitter":[
+                "1/2 Food preservatives are used to increase the shelf life, the body doesn’t understand how to break these down",
+                "Working out? Reach for a Zago, your Body Buddy. ",
+                "The buzz word on everyone’s lips is “FITNESS”. With it comes the search for a good gym, comfortable pair of workout shoes, gym wear and most importantly keeping aside time to hit the gym. In between all this we forget that nutrition and recovery for"
+
+            ],
+            "facebook":[
+                "When I run out of protein powder, or I'm on flights.. it's the best thing ever!! But I wish the carb and fat could be a little lower for guys like me who need a real low carb diet.",
+                "This is simply the best protein shake in India & from India... Had it 6 months back from a 24x7 outlet and since then have been having it pretty regularly. 20 gm of protein in tastiest format is rocking...",
+                "I don't see any negative of this product except that availability in Delhi is bit issue.. i had to go every time to 24x7... You simply have to try this drink though. AMAZING is the word.",
+                "Amazing product. But, impossible to open! Runners cant waste time in first finding a knife on the run route and then opening it! Very badly designed and engineered PACKAGING",
+                "A very nice product! :D #ADHM2016 #NEWDELHI #STARTUPS"
+            ]
+        },
+        "video":"https://www.youtube.com/watch?v=Xyrc7bFI2Xk"
+
+
     }
 ]

@@ -65,16 +65,7 @@ export default class AppTabbar extends PureComponent<*, State> {
     <Ionicons name={route.icon} size={30} style={styles.icon} />
   );
 
-  _renderBadge = ({ route }) => {
-    if (route.key === '5') {
-      return (
-        <View style={styles.badge}>
-          <Text style={styles.count}>42</Text>
-        </View>
-      );
-    }
-    return null;
-  };
+ 
 
   _renderFooter = props => (
     <TabBar
