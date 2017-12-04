@@ -20,6 +20,7 @@ import { SearchBar ,Avatar,Header} from 'react-native-elements'
           containerStyle={{ backgroundColor: '#0084ff' ,
                             borderBottomColor:'#0084ff',
                             borderTopColor :'#0084ff' , top:15, minWidth: 240 }}
+                            //onChangeText={}
           placeholder='Search...' />}
       innerContainerStyles={{ backgroundColor: '#0084ff' }}
       outerContainerStyles={{ backgroundColor: '#0084ff' }}

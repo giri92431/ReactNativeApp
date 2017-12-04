@@ -13,7 +13,7 @@ import Home from './../Views/HomeView/home'
 import Category from './../Views/CategoryView/category'
 import Trending from './../Views/TrendingView/trending'
 import Subscribe from './../Views/subscribeView/subscribe'
-import Notification from './../Views/NotificationView/notification'
+import SearchView from './../Views/SearchView/SearchView'
 import Setting from './../Views/settingsView/setting'
 
 
@@ -110,7 +110,7 @@ export default class AppTabbar extends PureComponent<*, State> {
         );
         case '5':
         return (
-          <Notification
+          <SearchView
             state={this.state}
             style={{ backgroundColor: '#4caf50' }}
           />

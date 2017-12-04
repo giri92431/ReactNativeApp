@@ -8,6 +8,14 @@ class DataFactoryApi  {
       {
         this.Data = require('./subscribe.json');
       }
+      if(value == 'category')
+      {
+        this.Data = require('./category.json');
+      }
+      if(value == 'search')
+      {
+        this.Data = require('./Search.json');
+      }
      
    }
    createData () {
