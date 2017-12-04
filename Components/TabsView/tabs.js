@@ -37,7 +37,7 @@ export default class AppTabbar extends PureComponent<*, State> {
       { key: '2', title: '', icon: 'ios-list-outline' },
       { key: '3', title: '', icon: 'ios-pulse' },
       { key: '4', title: '', icon: 'ios-filing' },
-      { key: '5', title: '', icon: 'ios-megaphone' },
+      { key: '5', title: '', icon: 'ios-search' },
       { key: '6' , title: '', icon:'ios-cog'}
     ],
   };
@@ -80,7 +80,7 @@ export default class AppTabbar extends PureComponent<*, State> {
     <TabBar
       {...props}
       renderIcon={this._renderIcon}
-      renderBadge={this._renderBadge}
+      //renderBadge={this._renderBadge}
       renderIndicator={this._renderIndicator}
       style={styles.tabbar}
       tabStyle={styles.tab}

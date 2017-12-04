@@ -4,6 +4,10 @@ class DataFactoryApi  {
       {
         this.Data = require('./HomeDataJson.json');
       }
+      if(value == 'Subscribe')
+      {
+        this.Data = require('./subscribe.json');
+      }
      
    }
    createData () {

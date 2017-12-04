@@ -1,0 +1,52 @@
+[
+    {
+        "index":1,
+        "name" :" ITC",
+        "image" :"https://couponmonkey.in/wp-content/uploads/itc.jpg"
+    },
+    {
+        "index":2,
+        "name" :"  Hindustan Unilever Ltd (HUL)",
+        "image" :"https://couponmonkey.in/wp-content/uploads/hul.jpg"
+    },
+    {
+        "index":3,
+        "name" :" Britannia",
+        "image" :"https://couponmonkey.in/wp-content/uploads/britania.jpg"
+    },
+    {
+        "index":4,
+        "name" :" Nestle India",
+        "image" :"https://couponmonkey.in/wp-content/uploads/nestle.jpg"
+    },
+    {
+        "index":5,
+        "name" :" Patanjali Ayurved",
+        "image" :"https://couponmonkey.in/wp-content/uploads/patanjali.jpg"
+    },
+    {
+        "index":6,
+        "name" :" Colgate-Palmolive",
+        "image" :"https://couponmonkey.in/wp-content/uploads/colgate.jpg"
+    },
+    {
+        "index":7,
+        "name" :" GlaxoSmithKline",
+        "image" :"https://couponmonkey.in/wp-content/uploads/gsk.jpg"
+    },
+    {
+        "index":8,
+        "name" :" AB InBev",
+        "image" :"http://www.ab-inbev.com/etc/designs/universal-template-abinbev/images/opengraph.png"
+    },
+    {
+        "index":9,
+        "name" :" Philip Morris International",
+        "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ4zF-O7gpwyEXDl8hJPOkhhQkBIvQgMXYB4V8_rCtFztqJ-kN"
+    },
+    {
+        "index":10,
+        "name" :"Unilever",
+        "image" :"http://stoppress.co.nz/media/images/unilever_logo_2673.png"
+    }
+]
