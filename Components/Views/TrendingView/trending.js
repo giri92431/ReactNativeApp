@@ -12,9 +12,10 @@ import Swiper from 'react-native-swiper';
  export default class Trending extends Component{
 	 styles = StyleSheet.create({
 		wrapper: {
-			height:350,
+			height:400,
 			borderRadius:4,
-			padding:5
+			padding:5,
+			
 		},
 		slide: {
 			flex: 1,
@@ -29,17 +30,18 @@ import Swiper from 'react-native-swiper';
 			color: '#46484c'
 		},
 		headdertext :{
-			fontSize: 24,
+			fontSize: 28,
 			fontWeight: 'bold',
 			//justifyContent: 'center',
 			textAlign: 'center',
-			color:'grey'
+			color:'#436060'
 		},
 		Topictext:{
-			fontSize: 18,
-			fontWeight: 'bold',
-			//justifyContent: 'center',
-			textAlign: 'center'
+			fontSize:20,
+			color: '#587272',
+			textAlign:'center',
+			padding:5,
+			textDecorationLine: 'underline'
 		}
 		
 	})
@@ -135,6 +137,40 @@ import Swiper from 'react-native-swiper';
 					</View>
 				</Swiper>
 			</View>
+
+
+
+
+
+			<View style={this.styles.wrapper}>
+			 <Text style= {this.styles.Topictext}>Hot in McDonald’s</Text>
+				<Swiper >
+					<View style={this.styles.slide}>
+					<Image
+								style={{width: 300, height: 250}}
+								source={{uri: 'https://i2.wp.com/www.hungryforever.com/wp-content/uploads/2016/07/McDonalds-Featured.jpg?ssl=1?w=1269&strip=all&quality=80'}}
+       				 />
+						<Text style={this.styles.text}>Enjoy A Mexican And Lebanese McAloo Tikki at McDonald’s India This Monsoon</Text>
+					</View>
+					<View style={this.styles.slide}>
+					<Image
+								style={{width: 300, height: 250}}
+								source={{uri: 'https://static.seekingalpha.com/uploads/2017/12/4/728256-151238987710437.png'}}
+       				 />
+						<Text style={this.styles.text}> McDonald's: What's It Really Worth?k</Text>
+					</View>
+					<View style={this.styles.slide}>
+					<Image
+								style={{width: 300, height: 250}}
+								source={{uri: 'http://4.bp.blogspot.com/-qXehNZum7OY/UXIFIFWDfXI/AAAAAAAAfgU/yH3eigRriyQ/s1000/539734_524836070896304_1609033588_n.jpg'}}
+       				 />
+						<Text style={this.styles.text}>MCDONALD'S NEW BLACK PEPPER FLAMER BURGER VS MCSPICY BURGER</Text>
+					</View>
+				</Swiper>
+			</View>
+
+			
+
 			</ScrollView>
  		)
  	}
